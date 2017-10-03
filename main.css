@@ -1,0 +1,138 @@
+/* Styles */
+
+body * {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: rgb(37, 37, 37);
+    opacity: 1;
+    font-family: 'Roboto', helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+}
+
+
+.logo {
+    display: block;
+    height: 50%;
+    width: auto;
+    margin: 0 auto 30px;
+}
+
+/* Sign-Up */
+
+@media screen and (min-width: 800px) {
+
+.signup-form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+},
+
+.logo {
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 0 auto 30px;
+}
+
+
+}
+
+.signup-form {
+    margin: 0 auto;
+    width: 75%;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form legend {
+    text-align: center;
+    font-weight: 300;
+    color: #34343c;
+    margin: 0 auto 45px;
+    font-size: 35px;
+    line-height: 38px;
+    letter-spacing: 0;
+}
+
+/* Button */
+
+.signup-form a {
+    background: #0054a6;
+    border: 2px solid #0054a6;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+    color: #eee;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.signup-form a:hover {
+    background-color: #0d4d8c;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Sign Up Text */
+
+.signup-form p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #999;
+}
+
+/*
+.signup-form a {
+    text-decoration: none;
+    color: #999;
+    border-bottom: 1px solid #bbb;
+}
+
+.signup-form a:hover {
+    border-color: #999;
+    color: #777;
+}
+*/
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover { color: #E7F1F9 }
+
+.footer p { margin-bottom: 40px }
